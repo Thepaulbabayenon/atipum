@@ -51,9 +51,9 @@ const Navbar = () => {
           Orders
         </Link>
         <Link
-          href={user ? "http://localhost:3000/" : "/sign-in"}
+          href={user ? "https://atipum-admin.vercel.app/" : "/sign-in"}
           className={`hover:text-red-1 ${
-            pathname === "http://localhost:3000" && "text-red-1"
+            pathname === "https://atipum-admin.vercel.app/" && "text-red-1"
           }`}
         >
           Admin
