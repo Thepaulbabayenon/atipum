@@ -12,8 +12,8 @@ const font = Tinos({
 });
 
 export const metadata: Metadata = {
-  title: "University of San Agustin Bookstore",
-  description: "USA Bookstore",
+  title: "Atipum",
+  description: "Atipum Store",
 };
 
 export default function RootLayout({
